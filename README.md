@@ -315,7 +315,8 @@ Finally, in the ```Scaffold```, we used the body property and set it to a new Ta
 
 <br/>
 Now if all went according to plan, the result should look like this 
-[![IMAGE ALT TEXT](https://i9.ytimg.com/vi/ExGcq8baD5I/default.jpg?sqp=CISuqNQF&rs=AOn4CLBNuZmC639KVo4z24b4VS9iJJZJNA)] (https://youtu.be/ExGcq8baD5I)
+
+![alt text](https://i9.ytimg.com/vi/ExGcq8baD5I/default.jpg?sqp=CISuqNQF&rs=AOn4CLBNuZmC639KVo4z24b4VS9iJJZJNA)
 
 
 ### Conclusion 
