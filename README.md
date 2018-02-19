@@ -312,3 +312,13 @@ class _WhatsAppUiClone extends State<WhatsAppUiClone>  with SingleTickerProvider
 Starting from the top and working our way down, we imported the four files we just created into *main.dart*. Next, we override two of Flutter's [lifecycle](https://flutter.io/widgets-intro/#responding-to-widget-lifecycle-events) methods. In the [initState](https://docs.flutter.io/flutter/widgets/State-class.html#initState) method, we set the ```_tabcontroller``` we created earlier to a new TabController. The number of tabs was set here. 
 Moving further down, we again override a lifecycle method, this time the [dispose](https://docs.flutter.io/flutter/widgets/State-class.html#dispose).
 Finally, in the ```Scaffold```, we used the body property and set it to a new TabBarView. The TabBarView used the same controller as before and took in the four different classes we created as its children.
+
+
+### Conclusion 
+As you can see, it takes very little for you to get up and going with Flutter. 
+This is part one of a series I am planning to do. The next part may be released sometime during the next week. It all depends on how much homework I have.
+
+If you spotted any errors or have any suggestions, feel free to send me a message or leave a comment. 
+
+- Nash 
+
