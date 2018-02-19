@@ -313,6 +313,10 @@ Starting from the top and working our way down, we imported the four files we ju
 Moving further down, we again override a lifecycle method, this time the [dispose](https://docs.flutter.io/flutter/widgets/State-class.html#dispose).
 Finally, in the ```Scaffold```, we used the body property and set it to a new TabBarView. The TabBarView used the same controller as before and took in the four different classes we created as its children.
 
+<br/>
+Now if all went according to plan, the result should look like this 
+[![IMAGE ALT TEXT](https://i9.ytimg.com/vi/ExGcq8baD5I/default.jpg?sqp=CISuqNQF&rs=AOn4CLBNuZmC639KVo4z24b4VS9iJJZJNA)](https://youtu.be/ExGcq8baD5I "Result")
+
 
 ### Conclusion 
 As you can see, it takes very little for you to get up and going with Flutter. 
