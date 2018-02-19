@@ -316,7 +316,9 @@ Finally, in the ```Scaffold```, we used the body property and set it to a new Ta
 <br/>
 Now if all went according to plan, the result should look like this 
 
-![alt text](https://i9.ytimg.com/vi/ExGcq8baD5I/default.jpg?sqp=CISuqNQF&rs=AOn4CLBNuZmC639KVo4z24b4VS9iJJZJNA)
+![alt text](https://github.com/Neevash/flutter-whatsapp-ui-clone/blob/master/screenshots/result.png)
+
+see video here: https://youtu.be/ExGcq8baD5I
 
 
 ### Conclusion 
