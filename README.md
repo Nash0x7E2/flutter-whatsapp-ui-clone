@@ -28,7 +28,7 @@ $ cd whatsapp_ui_clone &&  Flutter run
 ```
 By default, Flutter generates a Counter application so if everything went well, you should see this on your device. 
 
-![alt text](https://lh6.googleusercontent.com/6HJ-IKRhxTL4d0q4Zs76DfB57n9fMM2MS-nmK9aOCPZGnzJAuLPJDePkb5AV81qQsxOc-qG8lhyc7FXqj4TqB3tGZ4E-ySz-NVsdkVL90eEMr0inknNL3peG4BYu1s6cF3idk23e "Logo Title Text 1")
+![alt text](https://github.com/Neevash/flutter-whatsapp-ui-clone/blob/master/screenshots/counter.png "Logo Title Text 1")
 
 <br/>
 Now that the app is running, let's navigate to the ```lib``` folder and open ```main.dart```.
