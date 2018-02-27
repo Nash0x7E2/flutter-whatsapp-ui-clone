@@ -1,6 +1,6 @@
 ## Build the WhatsApp UI using Flutter 
 
-This repository contains the cde form my series 'Building the Whatsapp UI using Flutter'. 
+This repository contains the code from my series 'Building the Whatsapp UI using Flutter'. 
 
 To get started, clone the repo then run flutter run
 ```bash
