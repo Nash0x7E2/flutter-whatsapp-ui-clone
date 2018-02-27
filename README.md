@@ -16,3 +16,6 @@ $ cd flutter-whatsapp-ui-clone && flutter run
 The written post can be found at https://medium.com/@lalal_905/
 
 Part 1 :  https://medium.com/@lalal_905/building-whatsapp-ui-with-flutter-io-and-dart-1bb1e83e7439
+
+Part 2 : https://medium.com/@lalal_905/building-whatsapp-ui-with-flutter-part-2-the-chat-list-ad6e5fce5ba1 
+For part two, checkout the tut-2 branch
