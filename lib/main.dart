@@ -1,12 +1,11 @@
 import 'package:flutter/material.dart';
-import './pages/camera_page.dart' ;
-import './pages/chat_screen.dart' ; 
-import './pages/status_page.dart' ;
-import './pages/call_history.dart' ;
+import './pages/camera_page.dart';
+import './pages/chat_screen.dart';
+import './pages/status_page.dart';
+import './pages/call_history.dart';
 
 void main() {
-runApp(
-  new MaterialApp(
+  runApp(new MaterialApp(
     home: new WhatsAppUiClone(),
     title: 'WhatsApp',
     theme: new ThemeData(
@@ -20,16 +19,14 @@ class WhatsAppUiClone extends StatefulWidget {
   _WhatsAppUiClone createState() => new _WhatsAppUiClone();
 }
 
-class _WhatsAppUiClone extends State<WhatsAppUiClone>  with SingleTickerProviderStateMixin {
+class _WhatsAppUiClone extends State<WhatsAppUiClone>
+    with SingleTickerProviderStateMixin {
   TabController _tabcontroller;
 
   @override
   void initState() {
     super.initState();
-    _tabcontroller = new TabController(
-      vsync: this,
-      length: 4,
-    );
+    _tabcontroller = new TabController(vsync: this, length: 4, initialIndex: 1);
   }
 
   @override
@@ -50,22 +47,32 @@ class _WhatsAppUiClone extends State<WhatsAppUiClone>  with SingleTickerProvider
           indicatorColor: Colors.white,
           tabs: <Tab>[
             new Tab(icon: new Icon(Icons.camera_alt)),
-            new Tab(text: 'CHATS',),
-            new Tab(text: 'STATUS',),
-            new Tab(text: 'CALLS',)
+            new Tab(
+              text: 'CHATS',
+            ),
+            new Tab(
+              text: 'STATUS',
+            ),
+            new Tab(
+              text: 'CALLS',
+            )
           ],
         ),
       ),
-    body: new TabBarView(
-      controller: _tabcontroller,
-      children: <Widget>[
-        new CameraPage(),
-        new ChatScreen(),
-        new StatusScreen(),
-        new CallHistory()
-
-      ],
-    ),
+      body: new TabBarView(
+        controller: _tabcontroller,
+        children: <Widget>[
+          new CameraPage(),
+          new ChatScreen(),
+          new StatusScreen(),
+          new CallHistory()
+        ],
+      ),
+      floatingActionButton: new FloatingActionButton(
+        backgroundColor: Theme.of(context).accentColor,
+        child: new Icon(Icons.message),
+        onPressed: (() => print('Hello')),
+      ),
     );
   }
 }
