@@ -4,7 +4,7 @@ This repository contains the code from my series 'Building the Whatsapp UI using
 
 To get started, clone the repo then run flutter run
 ```bash
-$ git clone https://github.com/Neevash/flutter-whatsapp-ui-clone
+$ git clone https://github.com/Nash0x7E2/flutter-whatsapp-ui-clone
 ````
 
 ```bash
